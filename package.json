@@ -1,0 +1,52 @@
+{
+	"name": "tankrechner",
+	"version": "1.0.0",
+	"description": "In Polen Tanken",
+	"main": "index.tsx",
+	"scripts": {
+		"lint": "eslint . --ext .ts",
+		"start": "webpack serve --open",
+		"build": "webpack --mode production"
+	},
+	"author": "Jakob Schattka",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.18.6",
+		"@babel/core": "^7.18.6",
+		"@babel/preset-env": "^7.18.6",
+		"@babel/preset-react": "^7.18.6",
+		"@babel/preset-typescript": "^7.18.6",
+		"@types/react": "^18.0.15",
+		"@types/react-dom": "^18.0.6",
+		"@types/webpack": "^5.28.0",
+		"@types/webpack-dev-server": "^4.7.2",
+		"@typescript-eslint/eslint-plugin": "^5.30.6",
+		"@typescript-eslint/parser": "^5.30.6",
+		"babel-loader": "^8.2.5",
+		"clean-webpack-plugin": "^4.0.0",
+		"css-loader": "^6.7.1",
+		"eslint": "^8.19.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.30.1",
+		"html-webpack-plugin": "^5.5.0",
+		"prettier": "^2.7.1",
+		"sass-loader": "^13.0.2",
+		"style-loader": "^3.3.1",
+		"ts-node": "^10.9.1",
+		"typescript": "^4.7.4",
+		"webpack": "^5.73.0",
+		"webpack-cli": "^4.10.0",
+		"webpack-dev-server": "^4.9.3"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.9.3",
+		"@emotion/styled": "^11.9.3",
+		"@mui/icons-material": "^5.8.4",
+		"@mui/material": "^5.9.0",
+		"axios": "^0.27.2",
+		"classname": "^0.0.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
+}
